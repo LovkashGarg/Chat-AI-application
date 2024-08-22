@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#inputbox{
+  width: 500px;
+  height: 200px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 5%;
+}
+#answerbox{
+  border:4px;
+  border-color: white;
+  border-style: dotted;
+  padding: 5%;
+  font-size: 20px;
+}
