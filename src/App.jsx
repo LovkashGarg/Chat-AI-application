@@ -11,7 +11,7 @@ function App() {
     try {
       setanswer("Loading ...");
       console.log(question);
-      const res = await axios.post(`http://localhost:5000/api/generate`, {
+      const res = await axios.post(`https://chat-ai-app-backend.onrender.com/api/generate`, {
         "contents": [
           {
             "parts": [{ "text": question }]
